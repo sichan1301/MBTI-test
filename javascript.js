@@ -12,7 +12,6 @@ function startsection(){
 function questionsection(){
     const question = document.querySelector('.question');
     question.style.display="block";
-    document.body.style.background="rgb(250, 223, 250)";
     quest();
 }
 
