@@ -4,7 +4,7 @@ html, body{
 }
 
 .start{
-    background:url("musician.jpg") no-repeat;
+    background:url("sample.jpg") no-repeat;
     background-size:cover;
     background-position : center center;
     width:100vw;
