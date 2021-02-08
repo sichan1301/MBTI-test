@@ -5,7 +5,7 @@ html, body{
 
 .start{
     background:url("sample.jpg") no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position : center center;
     width:100vw;
     height:100vh;
@@ -125,4 +125,20 @@ html, body{
     background-color:rgb(213, 255, 208);
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.result{
+    text-align:center;
+}
+
+.result audio{
+    font-size:small;
+}
+
+.result img{
+
+}
+
+.explain{
+    font-size:50px;
 }
