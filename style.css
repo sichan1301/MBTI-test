@@ -46,7 +46,7 @@ html, body{
 .progress{
     text-align:center;
     width:80%;
-    margin-top:5%;
+    margin-top:16%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -61,7 +61,7 @@ html, body{
     box-shadow: 10px 10px 20px 0 rgba(250, 90, 223, 0.1);
 }
 .question-text{
-    margin-top:3%;
+    margin-top:15%;
     text-align:center;
     font-size:45px;
     font-family: 'Single Day', cursive;
@@ -78,7 +78,7 @@ html, body{
     font-size:25px;
     width : 310px;
     height: 85px;
-    margin-top:5%;
+    margin-top:15%;
     margin-left:auto;
     margin-right:auto;
     color:rgb(40, 33, 143);
@@ -91,7 +91,7 @@ html, body{
     font-size:25px;
     width : 310px;
     height: 85px;
-    margin-top:4%;
+    margin-top:14%;
     margin-left:auto;
     margin-right:auto;
     color:rgb(221, 126, 126);
