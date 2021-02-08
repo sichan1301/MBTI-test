@@ -4,8 +4,8 @@ html, body{
 }
 
 .start{
-    background:url("sample.jpg") no-repeat;
-    background-size:contain;
+    background:url("musician.jpg") no-repeat;
+    background-size:cover;
     background-position : center center;
     width:100vw;
     height:100vh;
@@ -44,6 +44,19 @@ html, body{
     
 }
 @media(max-width:769px){
+    html, body{
+        margin:0;
+        padding:0;
+    }
+    
+    .start{
+        background:url("musician.jpg") no-repeat;
+        background-size:cover;
+        background-position : center center;
+        width:100vw;
+        height:100vh;
+    }
+    
     #start-contents{
         font-size:40px;
         position:absolute;
