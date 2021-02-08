@@ -24,7 +24,6 @@ html, body{
     color:rgb(245, 249, 255);
     font-size:45px;
     font-family: 'Single Day', cursive;
-    
 }
 .startbutton{
     margin:0;
@@ -43,46 +42,7 @@ html, body{
     background-color: rgb(248, 205, 237);
     
 }
-@media(max-width:769px){
-    html, body{
-        margin:0;
-        padding:0;
-    }
-    
-    .start{
-        background:url("musician.jpg") no-repeat;
-        background-size:cover;
-        background-position : center center;
-        width:100vw;
-        height:100vh;
-    }
-    
-    #start-contents{
-        font-size:40px;
-        position:absolute;
-        width:100%;
-        top:50%;
-        transform: translateY(-50%);
-        color:white;
-        text-align:center;
-    }
-    
-    .startbutton{
-        border-radius:5px;
-        width:110px;
-        height:40px;
-        background-color:white;
-        border: 5px solid rgb(209, 116, 252);
-        font-size:11px;
-        font-weight:bold;
-        color:rgb(151, 3, 219);
-        cursor:pointer;
-        transition: all 0.5s;    
-    }
-    .startbutton:hover{
-        background-color: rgb(248, 205, 237);
-    }
-}
+
 .progress{
     text-align:center;
     width:80%;
@@ -154,4 +114,50 @@ html, body{
 
 .explain{
     font-size:50px;
+}
+
+@media screen and (max-width: 768px) {
+    html, body{
+        margin:0;
+        padding:0;
+    }
+    
+    .start{
+        background:url("musician.jpg") no-repeat;
+        background-size:cover;
+        background-position : center center;
+        width:100vw;
+        height:100vh;
+    }
+    
+    #start-contents{
+        font-size:40px;
+        position:absolute;
+        width:100%;
+        top:50%;
+        transform: translateY(-50%);
+        color:white;
+        text-align:center;
+    }
+    .start-text{
+        color:rgb(245, 249, 255);
+        font-size:45px;
+        font-family: 'Single Day', cursive;
+    }
+    
+    .startbutton{
+        border-radius:5px;
+        width:180px;
+        height:70px;
+        background-color:white;
+        border: 5px solid rgb(209, 116, 252);
+        font-size:28px;
+        font-weight:bold;
+        color:rgb(151, 3, 219);
+        cursor:pointer;
+        transition: all 0.5s;    
+    }
+    .startbutton:hover{
+        background-color: rgb(248, 205, 237);
+    }
 }
