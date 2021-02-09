@@ -52,8 +52,12 @@ body{
 }
 .question{
     margin-top:1%;
- 
- 
+     /* background-image:url('questback.jpg'); */
+    background-size:cover;
+    background-position : center center;
+    background-repeat: no-repeat, repeat;
+    width:400px;
+    height:500px;
     margin-left:auto;
     margin-right:auto;
     border: 1px solid white;
@@ -173,8 +177,29 @@ body{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
+    html, body{
+        margin:0;
+        padding:0;
+    }
     
+    .start{
+        background:url("musician.jpg") no-repeat;
+        background-size:cover;
+        background-position : center center;
+        width:100vw;
+        height:100vh;
+    }
+    
+    #start-contents{
+        font-size:40px;
+        position:absolute;
+        width:100%;
+        top:50%;
+        transform: translateY(-50%);
+        color:white;
+        text-align:center;
+    }
     .start-text{
         color:rgb(245, 249, 255);
         font-size:45px;
@@ -211,8 +236,8 @@ body{
     background-size:cover;
     background-position : center center;
     background-repeat: no-repeat, repeat;
-    width:400px;
-    height:500px;
+    width:600px;
+    height:600px;
     margin-left:auto;
     margin-right:auto;
     border: 1px solid white;
@@ -248,8 +273,8 @@ body{
 .button2{
     font-family: 'Cute Font', cursive;
     font-size:25px;
-    width : 310px;
-    height: 85px;
+    width : 260px;
+    height: 55px;
     margin-top:14%;
     margin-left:auto;
     margin-right:auto;
