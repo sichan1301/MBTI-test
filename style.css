@@ -177,7 +177,7 @@ body{
 
 
 
-@media only screen and (max-width: 607px) {
+@media only screen and (max-width: 600px) {
 
     html, body{
         margin:0;
@@ -185,7 +185,7 @@ body{
     }
     
     .start{
-        background:url("main_img.jpg") no-repeat;
+        background:url("dane-deaner-CULjV0Vc8LU-unsplash.jpg") no-repeat;
         background-size:cover;
         background-position :center;
         width:375px;
