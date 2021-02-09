@@ -1,6 +1,8 @@
 function start(){
     const question = document.querySelector('.question');
     question.style.display="none";
+    const loading = document.querySelector('.loading');
+    loading.style.display="none";
     const resultmain = document.querySelector('.result');
     resultmain.style.display="none";
 }
@@ -54,9 +56,9 @@ var result ={
     "ISTP": {"genre":"블루스",   "explain":"",   "img":".jpg",  "audio":".mp3"},
     "ISFJ": {"genre":"발라드",   "explain":"",   "img":".jpg",  "audio":"고백 (바른연애 길잡이 X 허각).mp3"},
     "ISFP": {"genre":"샹송",     "explain":"",   "img":".jpg",  "audio":".mp3"},
-    "INTJ": {"genre":"뉴에이지", "explain":"",   "img":".jpg",  "audio":".mp3"},
     "INTP": {"genre":"인디",     "explain":"",   "img":".jpg",  "audio":".mp3"},
-    "INFJ": {"genre":"포크",     "explain":"",   "img":".jpg",  "audio":".mp3"},
+    "INTJ": {"genre":"포크",     "explain":"",   "img":".jpg",  "audio":".mp3"},
+    "INFJ": {"genre":"뉴에이지", "explain":"",   "img":".jpg",  "audio":".mp3"},
     "INFP": {"genre":"R&B",      "explain":"",   "img":".jpg",  "audio":".mp3"}
 }
 
@@ -65,20 +67,33 @@ function next(){
     if(num==13){
         const question = document.querySelector('.question');
         question.style.display="none";
-        $('.result').show();
+        setTimeout(function(){
+            $(".loading").fadeIn(1000);
+        }, 500);
+    
+        setTimeout(function(){
+            $(".loading").fadeOut(1000);
+        }, 4500);
+        setTimeout(function(){
+            $(".result").fadeIn(5000);
+        },5000);
         var mbti =""
         $('.EI').val()>1 ? mbti +="E" : mbti +="I";
         $('.SN').val()>1 ? mbti +="S" : mbti +="N";
         $('.TF').val()>1 ? mbti +="T" : mbti +="F";
         $('.JP').val()>1 ? mbti +="J" : mbti +="P";
-        alert(mbti);
+
         $('.img').attr("src",result[mbti]['img']);
         $('.genre').html(result[mbti]['genre']);
         $('.expalin').html(result[mbti]['explain']);
         $('.audio').attr("src",result[mbti]['audio']);
     }
+
+
+
     else{
         $('.progress-bar').attr('style','width: calc(100/12*' + num +'%');
+     // $('.question').attr('style','background-img:url) 건드려볼것
         $('.question-text').html(q[num]['title']);
         $('.makeshift').val(q[num]['type']);
         $('.button1').html(q[num]['button1']);
@@ -87,7 +102,10 @@ function next(){
     }
 }
 
-
+function loading(){
+    const question = document.querySelector('.question');
+    question.style.display="none";
+}
 
 function init(){
     start();

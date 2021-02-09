@@ -1,4 +1,4 @@
-html, body{
+body{
     margin:0;
     padding:0;
 }
@@ -52,7 +52,7 @@ html, body{
 }
 .question{
     margin-top:1%;
-    background-color: white;
+    background-color:#fdf8f5;
     width:360px;
     height:700px;
     margin-left:auto;
@@ -61,6 +61,7 @@ html, body{
     box-shadow: 10px 10px 20px 0 rgba(250, 90, 223, 0.1);
 }
 .question-text{
+    color:rgb(221, 250, 92);
     margin-top:15%;
     text-align:center;
     font-size:45px;
@@ -99,6 +100,56 @@ html, body{
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
+
+.loading{
+    margin:0;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items : center;
+    height: 100vh;
+}
+.loadingtext{
+    font-family: 'Single Day', cursive;
+    margin-top:8%;
+    color: rgb(217, 97, 253);
+    font-size:60px;
+}
+.note{
+    text-align:center;    
+    font-size:120px;
+    color:rgb(141, 187, 4);
+    position:relative;
+}
+.note::before{
+    content: attr(data-text);
+    color: rgb(255, 255, 119);
+    position:absolute;
+    left:0; z-index: 2;
+    overflow:hidden;
+    width:100%;
+    animation: loading 1.5s ease infinite;
+}
+.note::after{
+    content: "";
+    width:100px;
+    height: 3px;
+    background:rgb(255, 255, 153);
+    position:absolute;
+    left: 0; bottom: -10px;
+    animation: loadingLine 1.5s ease infinite;
+}
+
+@keyframes loading {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+@keyframes loadingLine {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
 
 .result{
     text-align:center;
