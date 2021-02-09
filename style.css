@@ -116,11 +116,11 @@ body{
     font-family: 'Single Day', cursive;
     margin-top:8%;
     color: rgb(217, 97, 253);
-    font-size:60px;
+    font-size:50px;
 }
 .note{
     text-align:center;    
-    font-size:120px;
+    font-size:100px;
     color:rgb(141, 187, 4);
     position:relative;
 }
