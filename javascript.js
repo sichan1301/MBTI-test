@@ -68,15 +68,15 @@ function next(){
         const question = document.querySelector('.question');
         question.style.display="none";
         setTimeout(function(){
-            $(".loading").fadeIn(1000);
-        }, 500);
-    
+            $(".loading").fadeIn(1500);
+        }, 1000);
+        
         setTimeout(function(){
             $(".loading").fadeOut(1000);
+            $('.result').fadeIn(5000);
         }, 4500);
-        setTimeout(function(){
-            $(".result").fadeIn(5000);
-        },5000);
+
+        
         var mbti =""
         $('.EI').val()>1 ? mbti +="E" : mbti +="I";
         $('.SN').val()>1 ? mbti +="S" : mbti +="N";
@@ -86,7 +86,10 @@ function next(){
         $('.img').attr("src",result[mbti]['img']);
         $('.genre').html(result[mbti]['genre']);
         $('.expalin').html(result[mbti]['explain']);
+
+        setTimeout(function(){
         $('.audio').attr("src",result[mbti]['audio']);
+        },5000);
     }
 
 
@@ -106,6 +109,8 @@ function loading(){
     const question = document.querySelector('.question');
     question.style.display="none";
 }
+
+
 
 function init(){
     start();
