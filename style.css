@@ -177,7 +177,7 @@ body{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 607px) {
 
     html, body{
         margin:0;
@@ -188,8 +188,8 @@ body{
         background:url("main_img.jpg") no-repeat;
         background-size:cover;
         background-position :center;
-        width:360px;
-        height:640px;
+        width:375px;
+        height:667px;
     }
     
     #start-contents{
