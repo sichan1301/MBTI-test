@@ -57,7 +57,7 @@ body{
     background-position : center center;
     background-repeat: no-repeat, repeat;
     width:400px;
-    height:500px;
+    height:600px;
     margin-left:auto;
     margin-right:auto;
     border: 1px solid white;
@@ -191,8 +191,8 @@ body{
         background:url("musician.jpg") no-repeat;
         background-size:cover;
         background-position : center center;
-        width:100vw;
-        height:100vh;
+        width:350px;
+        height:600px;
     }
     
     #start-contents{
