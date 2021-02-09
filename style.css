@@ -56,8 +56,8 @@ body{
     background-size:cover;
     background-position : center center;
     background-repeat: no-repeat, repeat;
-    width:640px;
-    height:110vh;
+    width:400px;
+    height:500px;
     margin-left:auto;
     margin-right:auto;
     border: 1px solid white;
@@ -170,6 +170,13 @@ body{
     font-size:50px;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     html, body{
         margin:0;
@@ -215,3 +222,132 @@ body{
         background-color: rgb(248, 205, 237);
     }
 }
+
+.progress{
+    text-align:center;
+    width:80%;
+    margin-top:16%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.question{
+    margin-top:1%;
+    background-image:url('questback.jpg');
+    background-size:cover;
+    background-position : center center;
+    background-repeat: no-repeat, repeat;
+    width:400px;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid white;
+    box-shadow: 10px 10px 20px 0 rgba(250, 90, 223, 0.1);
+}
+.question-text{
+    color:rgb(221, 250, 92);
+    margin-top:15%;
+    text-align:center;
+    font-size:45px;
+    font-family: 'Single Day', cursive;
+}
+
+.questionbutton{
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+
+.button1{
+    font-family: 'Cute Font', cursive;
+    font-size:25px;
+    width : 260px;
+    height: 55px;
+    margin-top:15%;
+    margin-left:auto;
+    margin-right:auto;
+    color:rgb(40, 33, 143);
+    background-color:rgb(253, 251, 222);
+    border: 1px solid #ebebeb;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.button2{
+    font-family: 'Cute Font', cursive;
+    font-size:25px;
+    width : 310px;
+    height: 85px;
+    margin-top:14%;
+    margin-left:auto;
+    margin-right:auto;
+    color:rgb(221, 126, 126);
+    background-color:rgb(213, 255, 208);
+    border: 1px solid #ebebeb;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.loading{
+    margin:0;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items : center;
+    height: 100vh;
+}
+.loadingtext{
+    font-family: 'Single Day', cursive;
+    margin-top:8%;
+    color: rgb(217, 97, 253);
+    font-size:60px;
+}
+.note{
+    text-align:center;    
+    font-size:120px;
+    color:rgb(141, 187, 4);
+    position:relative;
+}
+.note::before{
+    content: attr(data-text);
+    color: rgb(255, 255, 119);
+    position:absolute;
+    left:0; z-index: 2;
+    overflow:hidden;
+    width:100%;
+    animation: loading 1.5s ease infinite;
+}
+.note::after{
+    content: "";
+    width:100px;
+    height: 3px;
+    background:rgb(255, 255, 153);
+    position:absolute;
+    left: 0; bottom: -10px;
+    animation: loadingLine 1.5s ease infinite;
+}
+
+@keyframes loading {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+@keyframes loadingLine {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+
+.result{
+    text-align:center;
+}
+
+.result audio{
+    font-size:small;
+}
+
+.result img{
+
+}
+
+.explain{
+    font-size:50px;
+}
+
+
