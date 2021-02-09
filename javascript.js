@@ -16,6 +16,7 @@ function startsection(){
 function questionsection(){
     const question = document.querySelector('.question');
     question.style.display="block";
+    document.body.style.backgroundImage = "url('questback-h.jpg')";
     quest();
 }
 
