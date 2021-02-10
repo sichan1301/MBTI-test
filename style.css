@@ -64,7 +64,8 @@ body{
     box-shadow: 10px 10px 20px 0 rgba(250, 90, 223, 0.1);
 }
 .question-text{
-    color:rgb(221, 250, 92);
+    color:black;
+    padding:8%;
     margin-top:15%;
     text-align:center;
     font-size:45px;
@@ -246,10 +247,11 @@ body{
     box-shadow: 10px 10px 20px 0 rgba(250, 90, 223, 0.1);
 }
 .question-text{
-    color:rgb(221, 250, 92);
+    color:black;
+    padding:8%;
     margin-top:15%;
     text-align:center;
-    font-size:45px;
+    font-size:25px;
     font-family: 'Single Day', cursive;
 }
 
@@ -263,12 +265,12 @@ body{
     font-family: 'Cute Font', cursive;
     font-size:25px;
     width : 260px;
-    height: 55px;
+    height: 65px;
     margin-top:30%;
     margin-left:auto;
     margin-right:auto;
-    color:rgb(40, 33, 143);
-    background-color:rgb(253, 251, 222);
+    color:#fff;
+    background-color:black;
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -276,12 +278,12 @@ body{
     font-family: 'Cute Font', cursive;
     font-size:25px;
     width : 260px;
-    height: 55px;
+    height: 65px;
     margin-top:18%;
     margin-left:auto;
     margin-right:auto;
-    color:rgb(221, 126, 126);
-    background-color:rgb(213, 255, 208);
+    color:black;
+    background-color:#fff;
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }

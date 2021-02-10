@@ -30,7 +30,7 @@ function quest(){
 var num =1;
 
 var q ={
-1: {"title":"1번 질문",  "type":"EI", "button1":"E","button2":"I"},
+1: {"title":"만약 당신이 1번질문을 풀고있었는데 어쩌구 저쩌구 동해물과 백두산이",  "type":"EI", "button1":"E","button2":"I"},
 2: {"title":"2번 질문",  "type":"EI", "button1":"E","button2":"I"},
 3: {"title":"3번 질문",  "type":"EI", "button1":"E","button2":"I"},
 4: {"title":"4번 질문",  "type":"SN", "button1":"S","button2":"N"},
