@@ -118,8 +118,9 @@ body{
     font-family: 'Single Day', cursive;
     color: black;
     font-size:30px;
-    margin:0;
+    margin-top:0;
     padding:0;
+    margin-bottom:3%;
 }
 .note{
     text-align:center;    
@@ -160,8 +161,10 @@ body{
     font-size:15px;
     font-family: 'Single Day', cursive;
     text-align:right;
-    margin:0;
+    margin-top:0;
     padding:0;
+    margin-bottom:1%;
+
 }
 
 .result{
