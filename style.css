@@ -122,7 +122,7 @@ body{
 .note{
     text-align:center;    
     font-size:120px;
-    color:#fff;
+    color:rgb(83, 82, 82);
     position:relative;
 }
 .note::before{
