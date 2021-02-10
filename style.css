@@ -56,8 +56,9 @@ body{
     /* background-size:cover;
     background-position : center center;
     background-repeat: no-repeat, repeat; */
+    margin-top:2%;
     width:40px;
-    height:00px;
+    height:90px;
     margin-left:auto;
     margin-right:auto;
     border:30px double rgb(39, 37, 37);
@@ -156,11 +157,21 @@ body{
 
 
 .result{
+    margin-top:-2%;
+    width:400px;
+    height:600px;
+    margin-right:auto;
+    margin-left:auto;
     text-align:center;
+    border:1px solid black;
 }
-
-.result audio{
-    font-size:small;
+.genre{
+    font-size:50px;
+}
+.alert{
+    font-size:20px;
+    font-family: 'Single Day', cursive;
+    text-align:right;
 }
 
 .result img{
@@ -246,13 +257,19 @@ body{
     margin-left:auto;
     margin-right:auto;
     border:35px double rgb(0, 0, 0);
+
 }
+
 .question-text{
     color:black;
     margin-top:10;
+    padding-right:50px;
+    width:330px;    
+    height:160px;    
     text-align:center;
-    font-size:25px;
+    font-size:27px;
     font-family: 'Single Day', cursive;
+    margin-bottom:0;
 }
 
 .questionbutton{
@@ -265,9 +282,9 @@ body{
 .button1{
     font-family: 'Cute Font', cursive;
     font-size:25px;
-    width : 260px;
-    height: 65px;
-    margin-top:5%;
+    width : 270px;
+    height: 80px;
+    margin-top:15%;
     margin-left:auto;
     margin-right:auto;
     color:#fff;
@@ -278,8 +295,8 @@ body{
 .button2{
     font-family: 'Cute Font', cursive;
     font-size:25px;
-    width : 260px;
-    height: 65px;
+    width : 270px;
+    height: 80px;
     margin-top:13%;
     margin-left:auto;
     margin-right:auto;
