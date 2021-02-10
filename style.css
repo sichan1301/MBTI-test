@@ -264,7 +264,7 @@ body{
     font-size:25px;
     width : 260px;
     height: 55px;
-    margin-top:15%;
+    margin-top:30%;
     margin-left:auto;
     margin-right:auto;
     color:rgb(40, 33, 143);
@@ -277,7 +277,7 @@ body{
     font-size:25px;
     width : 260px;
     height: 55px;
-    margin-top:14%;
+    margin-top:18%;
     margin-left:auto;
     margin-right:auto;
     color:rgb(221, 126, 126);
@@ -285,72 +285,5 @@ body{
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
-
-.loading{
-    margin:0;
-    display:flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items : center;
-    height: 100vh;
-}
-.loadingtext{
-    font-family: 'Single Day', cursive;
-    margin-top:8%;
-    color: rgb(217, 97, 253);
-    font-size:60px;
-}
-.note{
-    text-align:center;    
-    font-size:120px;
-    color:rgb(141, 187, 4);
-    position:relative;
-}
-.note::before{
-    content: attr(data-text);
-    color: rgb(255, 255, 119);
-    position:absolute;
-    left:0; z-index: 2;
-    overflow:hidden;
-    width:100%;
-    animation: loading 1.5s ease infinite;
-}
-.note::after{
-    content: "";
-    width:100px;
-    height: 3px;
-    background:rgb(255, 255, 153);
-    position:absolute;
-    left: 0; bottom: -10px;
-    animation: loadingLine 1.5s ease infinite;
-}
-
-@keyframes loading {
-    from {width: 0%;}
-    to {width: 100%;}
-}
-
-@keyframes loadingLine {
-    from {width: 0%;}
-    to {width: 100%;}
-}
-
-
-.result{
-    text-align:center;
-}
-
-.result audio{
-    font-size:small;
-}
-
-.result img{
-
-}
-
-.explain{
-    font-size:50px;
-}
-
 
 }
