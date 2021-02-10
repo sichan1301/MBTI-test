@@ -15,8 +15,13 @@ function startsection(){
 
 function questionsection(){
     const question = document.querySelector('.question');
-    question.style.display="block";
-    document.body.style.backgroundImage = "url('questback-v.jpg')";
+    $('.question').show();
+    // document.body.style.backgroundImage = "url('questback-v.jpg')";
+    // document.body.style.backgroundRepeat = "no-repeat";
+    // document.body.style.backgroundSize = "38% 90%";
+    // document.body.style.backgroundPosition = "center center";
+
+
     quest();
 }
 
@@ -69,8 +74,8 @@ function next(){
         const question = document.querySelector('.question');
         question.style.display="none";
         setTimeout(function(){
-            $(".loading").fadeIn(1500);
-        }, 1000);
+            $(".loading").fadeIn(500);
+        }, 500);
         
         setTimeout(function(){
             $(".loading").fadeOut(1000);
