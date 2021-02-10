@@ -16,11 +16,11 @@ function startsection(){
 function questionsection(){
     const question = document.querySelector('.question');
     question.style.display="block";
-    // document.body.style.backgroundImage = "url('questback-h.jpg')";
+    document.body.style.backgroundImage = "url('questback-v.jpg')";
     quest();
 }
 
-function quest(){
+function quest(){   
     const makeshift = document.querySelector('.makeshift').value; // EI
     const preValue = document.querySelector('.'+makeshift).value;
     $("."+makeshift).val(parseInt(preValue)+1);
