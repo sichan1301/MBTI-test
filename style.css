@@ -107,32 +107,27 @@ body{
 }
 
 .loading{
-    margin:0;
     display:flex;
     /* justify-content: center; */
-    width:40px;
-    height:90px;
-    margin:0 auto;
     flex-direction: column;
     align-items : center;
     height: 100vh;
-    box-shadow: 20px 10px 20px 20px rgba(248, 77, 225, 0.1);
 }
 .loadingtext{
     font-family: 'Single Day', cursive;
     margin-top:8%;
-    color: rgb(217, 97, 253);
+    color: black;
     font-size:60px;
 }
 .note{
     text-align:center;    
     font-size:120px;
-    color:rgb(141, 187, 4);
+    color:#fff;
     position:relative;
 }
 .note::before{
     content: attr(data-text);
-    color: rgb(255, 255, 119);
+    color:black;
     position:absolute;
     left:0; z-index: 2;
     overflow:hidden;
@@ -143,7 +138,7 @@ body{
     content: "";
     width:100px;
     height: 3px;
-    background:rgb(255, 255, 153);
+    background:black;
     position:absolute;
     left: 0; bottom: -10px;
     animation: loadingLine 1.5s ease infinite;
