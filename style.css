@@ -112,16 +112,18 @@ body{
     flex-direction: column;
     align-items : center;
     height: 100vh;
+    margin-top:15%;
 }
 .loadingtext{
     font-family: 'Single Day', cursive;
-    margin-top:8%;
     color: black;
-    font-size:60px;
+    font-size:30px;
+    margin:0;
+    padding:0;
 }
 .note{
     text-align:center;    
-    font-size:120px;
+    font-size:90px;
     color:rgb(83, 82, 82);
     position:relative;
 }
@@ -154,6 +156,13 @@ body{
     to {width: 100%;}
 }
 
+.alert{
+    font-size:15px;
+    font-family: 'Single Day', cursive;
+    text-align:right;
+    margin:0;
+    padding:0;
+}
 
 .result{
     width:375px;
@@ -166,11 +175,7 @@ body{
 .genre{
     font-size:50px;
 }
-.alert{
-    font-size:20px;
-    font-family: 'Single Day', cursive;
-    text-align:right;
-}
+
 
 .result img{
 
