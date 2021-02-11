@@ -6,6 +6,7 @@
     <title>Test</title>
     <style>@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');</style>
     <style>@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');</style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -41,11 +42,17 @@
    </section>
 
     <section class="result">
-        <img class="img" src="">
+        <!-- <img class="img" src=""> -->
+        <p class="life">당신의 bgm은 </p>
         <p class="genre" src="">음악장르 이름 </p>
-        <p class="explain">설명</p>
+        <p style="overflow:scroll; width:320px; height:360px;"  class="explain">설명</p>
+        <div class="wrap">
+            <p class="chemi">나랑 환상의 케미</p>
+            <p class="chemibox"></p>
+        </div>
         <audio  hidden="hidden" class="audio" src="" controls autoplay>브금</audio>
-        <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox_3kqm"></div>
+
+        <!-- Go to www.addthis.com/dashboard to customize your tools --> <div id="share" class="addthis_inline_share_toolbox_3kqm"></div>
     </section>
 
     <script

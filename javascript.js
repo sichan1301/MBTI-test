@@ -65,22 +65,22 @@ var q ={
 //     }
 
 var result ={
-    "ESTJ": {"genre":"락",       "explain":"",   "img":".jpg",  "audio":"bgm/Shout (mp3cut.net).mp3"},
-    "ESTP": {"genre":"힙합",     "explain":"",   "img":".jpg",  "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
-    "ESFJ": {"genre":"케이팝",   "explain":"",   "img": ".jpg", "audio":"bgm/Dynamite (mp3cut.net).mp3"},
-    "ESFP": {"genre":"트롯트",   "explain":"",   "img":".jpg",  "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
-    "ENTJ": {"genre":"EDM",      "explain":"",   "img":".jpg",  "audio":"bgm/Flashlight (Radio Edit).mp3"},
-    "ENTP": {"genre":"펑크",     "explain":"",   "img":".jpg",  "audio":"bgm/Uptown Funk (Feat. Bruno Mars).mp3"},
-    "ENFJ": {"genre":"뮤지컬",   "explain":"",   "img":".jpg",  "audio":"bgm/슬플 땐 빨래를 해 (mp3cut.net).mp3"},
-    "ENFP": {"genre":"재즈",     "explain":"",   "img":".jpg",  "audio":"bgm/It's All Right (mp3cut.net).mp3"},
-    "ISTJ": {"genre":"클래식",   "explain":"",   "img":".jpg",  "audio":"bgm/모차르트  세레나데 제13번 '아이네 클라이네 나흐트무지크' G장조 K (mp3cut.net).mp3"},
-    "ISTP": {"genre":"블루스",   "explain":"",   "img":".jpg",  "audio":"bgm/서울의 달 (mp3cut.net).mp3"},
-    "ISFJ": {"genre":"발라드",   "explain":"",   "img":".jpg",  "audio":"bgm/정승환 - 1 - 너였다면 - 320k (mp3cut.net).mp3"},
-    "ISFP": {"genre":"샹송",     "explain":"",   "img":".jpg",  "audio":"bgm/Le Festin (영화 '라따뚜이' 삽입곡) (mp3cut.net).mp3"},
-    "INTP": {"genre":"인디",     "explain":"",   "img":".jpg",  "audio":"bgm/사람은 이상하고 사랑은 모르겠어 (mp3cut.net).mp3"},
-    "INTJ": {"genre":"포크",     "explain":"",   "img":".jpg",  "audio":"bgm/너무 아픈 사랑은 사랑이 아니었음을 (mp3cut.net).mp3"},
-    "INFJ": {"genre":"뉴에이지", "explain":"",   "img":".jpg",  "audio":"bgm/River Flows In You (mp3cut.net).mp3"},
-    "INFP": {"genre":"R&B",      "explain":"",   "img":".jpg",  "audio":"bgm/Love (mp3cut.net).mp3"}
+    "ESTJ": {"genre":"락",       "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 ", "audio":"bgm/Shout (mp3cut.net).mp3"},
+    "ESTP": {"genre":"힙합",     "chemibox":"", "explain":"",     "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
+    "ESFJ": {"genre":"K-pop",    "chemibox":"뉴에이지", "explain":"헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤",    "audio":"bgm/Dynamite (mp3cut.net).mp3"},
+    "ESFP": {"genre":"트롯트",   "chemibox":"", "explain":"",     "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
+    "ENTJ": {"genre":"EDM",      "chemibox":"", "explain":"",     "audio":"bgm/Flashlight (Radio Edit).mp3"},
+    "ENTP": {"genre":"펑크",     "chemibox":"", "explain":"",    "audio":"bgm/Uptown Funk (Feat. Bruno Mars).mp3"},
+    "ENFJ": {"genre":"뮤지컬",   "chemibox":"", "explain":"햇살은 따스하고 새들은 지저귀고 랄랄라~ 언제나 밝고 따스한 모습으로 어느 모임에서나 잘 녹아들고 사람들에게 행복과 희망을 심어주곤 하는 당신의 인생은 마치 한 편의 뮤지컬 같아요. 그래서인지 당신 주변엔 늘 당신에게 힘을 얻고 또 힘을 주는 사람들이 많아요. 카리스마 있는 리더십 보다는 긍정의 에너지로 사람들을 동기화 시킬 수 있는 부드러운 리더십을 가지고 있네요!", "audio":"bgm/슬플 땐 빨래를 해 (mp3cut.net).mp3"},
+    "ENFP": {"genre":"재즈",     "chemibox":"", "explain":"",     "audio":"bgm/It's All Right (mp3cut.net).mp3"},
+    "ISTJ": {"genre":"클래식",   "chemibox":"", "explain":"",     "audio":"bgm/모차르트  세레나데 제13번 '아이네 클라이네 나흐트무지크' G장조 K (mp3cut.net).mp3"},
+    "ISTP": {"genre":"블루스",   "chemibox":"", "explain":"",     "audio":"bgm/서울의 달 (mp3cut.net).mp3"},
+    "ISFJ": {"genre":"발라드",   "chemibox":"정시찬", "explain":"섬세한 멜로디로 내 마음을 들었다 놨다 ♬ <br>역동적이진 않지만 섬세한 감성과 따뜻한 마음씨로 많은 사람을 끌어당기는 매력의 소유자인 당신의 인생에는 발라드가 어울리겠어요. 타고난 섬세함으로 사소한 부분 까지 기억해주고, 알아채주는 당신에게 감동한 사람이 한 둘이 아니네요.<br>혼자 있는 걸 좋아하고 낯도 가리지만 정작 다른 사람들과 함께일 때는 은근 인싸 재질이에요. 대부분 무난한 성격으로 통하지만 친해질수록 당신만의 매력을 드러내는 볼매!<br>사려 깊고 성실한 당신은 다른 사람의 부탁을 잘 들어주는 편이예요. 하지만 정작 자신은 힘들고 어려운 일이 생기거나 서운한 일이 생겨도 잘 드러내지 못하고 속앓이를 해요. 사실 상처도 많이 받고 여린데 사람들이 잘 몰라주는 것 같아서 서러울 때도 있죠. 조금 더 솔직하게 나를 드러내도 당신 곁에 있는 사람은 당신을 더 꽉 안아줄 거예요.",     "audio":"bgm/정승환 - 1 - 너였다면 - 320k (mp3cut.net).mp3"},
+    "ISFP": {"genre":"샹송",     "chemibox":"", "explain":"",     "audio":"bgm/Le Festin (영화 '라따뚜이' 삽입곡) (mp3cut.net).mp3"},
+    "INTP": {"genre":"인디",     "chemibox":"", "explain":"",     "audio":"bgm/사람은 이상하고 사랑은 모르겠어 (mp3cut.net).mp3"},
+    "INTJ": {"genre":"포크",     "chemibox":"", "explain":"",     "audio":"bgm/너무 아픈 사랑은 사랑이 아니었음을 (mp3cut.net).mp3"},
+    "INFJ": {"genre":"뉴에이지", "chemibox":"", "explain":"",     "audio":"bgm/River Flows In You (mp3cut.net).mp3"},
+    "INFP": {"genre":"R&B",      "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세", "audio":"bgm/Love (mp3cut.net).mp3"}
 }
 
 function next(){
@@ -88,6 +88,7 @@ function next(){
     if(num==13){
         const question = document.querySelector('.question');
         question.style.display="none";
+        
         setTimeout(function(){
             $(".loading").fadeIn(500);
         }, 500);
@@ -96,7 +97,7 @@ function next(){
             $(".loading").fadeOut(1000);
             $('.result').fadeIn(5000);
         }, 4500);
-
+        document.body.style.backgroundColor = "rgb(252, 246, 214)";
         
         var mbti =""
         $('.EI').val()>1 ? mbti +="E" : mbti +="I";
@@ -104,9 +105,9 @@ function next(){
         $('.TF').val()>1 ? mbti +="T" : mbti +="F";
         $('.JP').val()>1 ? mbti +="J" : mbti +="P";
 
-        $('.img').attr("src",result[mbti]['img']);
+        $('.chemibox').html(result[mbti]['chemibox']);
         $('.genre').html(result[mbti]['genre']);
-        $('.expalin').html(result[mbti]['explain']);
+        $('.explain').html(result[mbti]['explain']);
 
         setTimeout(function(){
         $('.audio').attr("src",result[mbti]['audio']);
