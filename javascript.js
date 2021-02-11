@@ -66,21 +66,21 @@ var q ={
 
 var result ={
     "ESTJ": {"genre":"락",       "explain":"",   "img":".jpg",  "audio":"bgm/Shout (mp3cut.net).mp3"},
-    "ESTP": {"genre":"힙합",     "explain":"",   "img":".jpg",  "audio":"bgm/.mp3"},
+    "ESTP": {"genre":"힙합",     "explain":"",   "img":".jpg",  "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
     "ESFJ": {"genre":"케이팝",   "explain":"",   "img": ".jpg", "audio":"bgm/Dynamite (mp3cut.net).mp3"},
     "ESFP": {"genre":"트롯트",   "explain":"",   "img":".jpg",  "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
     "ENTJ": {"genre":"EDM",      "explain":"",   "img":".jpg",  "audio":"bgm/Flashlight (Radio Edit).mp3"},
     "ENTP": {"genre":"펑크",     "explain":"",   "img":".jpg",  "audio":"bgm/Uptown Funk (Feat. Bruno Mars).mp3"},
-    "ENFJ": {"genre":"디스코",   "explain":"",   "img":".jpg",  "audio":"bgm/.mp3"},
+    "ENFJ": {"genre":"뮤지컬",   "explain":"",   "img":".jpg",  "audio":"bgm/슬플 땐 빨래를 해 (mp3cut.net).mp3"},
     "ENFP": {"genre":"재즈",     "explain":"",   "img":".jpg",  "audio":"bgm/It's All Right (mp3cut.net).mp3"},
-    "ISTJ": {"genre":"클래식",   "explain":"",   "img":".jpg",  "audio":"bgm/.mp3"},
+    "ISTJ": {"genre":"클래식",   "explain":"",   "img":".jpg",  "audio":"bgm/모차르트  세레나데 제13번 '아이네 클라이네 나흐트무지크' G장조 K (mp3cut.net).mp3"},
     "ISTP": {"genre":"블루스",   "explain":"",   "img":".jpg",  "audio":"bgm/서울의 달 (mp3cut.net).mp3"},
     "ISFJ": {"genre":"발라드",   "explain":"",   "img":".jpg",  "audio":"bgm/정승환 - 1 - 너였다면 - 320k (mp3cut.net).mp3"},
     "ISFP": {"genre":"샹송",     "explain":"",   "img":".jpg",  "audio":"bgm/Le Festin (영화 '라따뚜이' 삽입곡) (mp3cut.net).mp3"},
     "INTP": {"genre":"인디",     "explain":"",   "img":".jpg",  "audio":"bgm/사람은 이상하고 사랑은 모르겠어 (mp3cut.net).mp3"},
     "INTJ": {"genre":"포크",     "explain":"",   "img":".jpg",  "audio":"bgm/너무 아픈 사랑은 사랑이 아니었음을 (mp3cut.net).mp3"},
     "INFJ": {"genre":"뉴에이지", "explain":"",   "img":".jpg",  "audio":"bgm/River Flows In You (mp3cut.net).mp3"},
-    "INFP": {"genre":"R&B",      "explain":"",   "img":".jpg",  "audio":"bgm/.mp3"}
+    "INFP": {"genre":"R&B",      "explain":"",   "img":".jpg",  "audio":"bgm/Love (mp3cut.net).mp3"}
 }
 
 function next(){
