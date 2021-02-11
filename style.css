@@ -242,9 +242,10 @@ body{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .result{
+    margin-top:-50px;
     padding:0;
     width:375px;
-    height:667px;
+    height:1500px;
     margin-left:auto;
     margin-right:auto;
     background-color: rgb(245, 237, 195);
@@ -308,8 +309,7 @@ body{
 .explain{
     font-size:17px;
     color:rgb(2, 65, 7);
-    font-family: 'Single Day', cursive;
-    border: 1px solid black;
+    font-family: 'Single Day', cursive;     
     padding:0;
     padding:3%;
     margin-left:3%;
@@ -318,16 +318,13 @@ body{
     margin-block-end: 1px;
 
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width:8px;
 }
 ::-webkit-scrollbar-thumb{
     background:linear-gradient(transparent,rgb(182, 1, 1));
     border-radius:6px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background:linear-gradient(transparent,rgb(182, 1, 1));
-}
+} */
 
 .wrap{
     overflow:hidden;
