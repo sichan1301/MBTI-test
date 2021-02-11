@@ -65,7 +65,7 @@ var q ={
 //     }
 
 var result ={
-    "ESTJ": {"genre":"락",       "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 ", "audio":"bgm/Shout (mp3cut.net).mp3"},
+    "ESTJ": {"genre":"락",       "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 ", "audio":"bgm/Shout (mp3cut.net).mp3"},
     "ESTP": {"genre":"힙합",     "chemibox":"", "explain":"",     "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
     "ESFJ": {"genre":"K-pop",    "chemibox":"뉴에이지", "explain":"헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤",    "audio":"bgm/Dynamite (mp3cut.net).mp3"},
     "ESFP": {"genre":"트롯트",   "chemibox":"", "explain":"",     "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
