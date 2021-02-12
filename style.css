@@ -371,6 +371,9 @@ body{
         margin-bottom:-10%;
     }
 
+    .start-text{
+        font-size:40px;  
+    }
     .question{
         margin-top:5%;
         margin-left:auto;
