@@ -34,8 +34,8 @@ body{
 .start{
     padding-top:3%;
     border:20px solid black;
-    width:375px;
-    height:667px;
+    width:360px;
+    height:640px;
     margin:0 auto;
     margin-top:3%;
     background-color:white;
@@ -164,8 +164,8 @@ body{
 .question{
     background-color:white;
     margin-top:3%;
-    width:375px;
-    height:667px;
+    width:360px;
+    height:640px;
     margin-left:auto;
     margin-right:auto;
     border:35px double rgb(0, 0, 0);
