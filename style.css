@@ -365,17 +365,17 @@ body{
 @media only screen and (max-width: 600px) {
 
    .start{
-        margin-top:0;
+        margin-top:5%;
         margin-left:auto;
         margin-right:auto;
-        margin-bottom:-20%;
+        margin-bottom:-10%;
     }
 
     .question{
-        margin-top:0;
+        margin-top:5%;
         margin-left:auto;
         margin-right:auto;
-        margin-bottom:-20%;
+        margin-bottom:-10%;
     }
 
     .loading{
