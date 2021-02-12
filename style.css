@@ -228,7 +228,7 @@ body{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .result{
-    margin-top:-50px;
+    margin-top:-72px;
     padding:0;
     width:360px;
     margin-left:auto;
@@ -388,7 +388,7 @@ body{
     }
     
     .result{
-        margin-top:0;
+        margin-top:-15%;
     }
 }
 
