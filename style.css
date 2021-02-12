@@ -17,22 +17,32 @@ body{
 }
 #start-note1{
     text-align: left;
+    font-size:80px;
     padding-left:13%;
+    padding-top:0;
+    padding-bottom:0%;
 }
 #start-note2{   
     text-align: right;
-    padding-right:18%;
+    padding-right:35%;
+    font-size:50px;
+    padding-top:0;
+    padding-bottom:0;
 }
 #start-note3{   
     text-align: right;
     padding-right:18%;
+    padding-top:0;
+    padding-bottom:0;
 }
 #start-note4{
     text-align: left;
     padding-left:28%;
+    padding-top:0;
+    padding-bottom:0;
 }
 .start{
-    padding-top:3%;
+    padding-top:0;
     border:20px solid black;
     width:360px;
     height:640px;
@@ -44,7 +54,7 @@ body{
 .start-text{
     color:black;
     text-align:center;
-    margin-top:10%;
+    margin-top:0;
     margin-bottom:0;
     font-size:45px;
     font-weight: bold;
@@ -220,7 +230,7 @@ body{
 .result{
     margin-top:-50px;
     padding:0;
-    width:375px;
+    width:360px;
     margin-left:auto;
     margin-right:auto;
     background-color: rgb(245, 237, 195);
@@ -354,7 +364,7 @@ body{
 
    .start{
         margin-top:0;
-        margin-bottom:-19%;
+        margin-bottom:-18%;
         margin-left:0;
         margin-right:0%;
     }
@@ -362,7 +372,7 @@ body{
     .question{
         padding-top: 30px;
         margin-top:0;
-        margin-bottom:-19%;
+        margin-bottom:-18%;
         margin-left:0;
         margin-right:0%;
     }
@@ -375,5 +385,10 @@ body{
         height: 100vh;
         margin-top:30%;
 
+    }
+    
+    .result{
+        margin-top:0;
+    }
 }
 
