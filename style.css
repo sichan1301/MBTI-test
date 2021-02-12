@@ -23,7 +23,11 @@ body{
     text-align: right;
     padding-right:18%;
 }
-#start-note3{
+#start-note3{   
+    text-align: right;
+    padding-right:18%;
+}
+#start-note4{
     text-align: left;
     padding-left:28%;
 }
@@ -159,7 +163,7 @@ body{
 }
 .question{
     background-color:white;
-    margin-top:2%;
+    margin-top:3%;
     width:375px;
     height:667px;
     margin-left:auto;
@@ -348,12 +352,19 @@ body{
 
 @media only screen and (max-width: 600px) {
 
-    .start{
-        margin-top:10%;
+   .start{
+        margin-top:0;
+        margin-bottom:-15%;
+        margin-left:0;
+        margin-right:-0%;
     }
 
     .question{
         padding-top: 30px;
+        margin-top:0;
+        margin-bottom:-15%;
+        margin-left:0;
+        margin-right:-0%;
     }
 
     .loading{
