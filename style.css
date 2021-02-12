@@ -348,6 +348,10 @@ body{
 
 @media only screen and (max-width: 600px) {
 
+    .start{
+        margin-top:10%;
+    }
+
     .question{
         padding-top: 30px;
     }
