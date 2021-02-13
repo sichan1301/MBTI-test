@@ -19,39 +19,47 @@ body{
     color:rgb(194, 15, 248);
     text-align: left;
     font-size:60px; 
-    padding-left:14%;
+    padding-left:21%;
     padding-top:0;
     padding-bottom:0%;
 }
 #start-note2{   
     color:rgb(233, 5, 184);
     text-align: right;
-    padding-right:20%;
+    padding-right:17%;
     font-size:70px;
     margin-top:-20%;
     padding-top:0;
     padding-bottom:0;
 }
-#start-note3{   
+#start-note3{
+    padding-left:35%;
+    font-size:58px;
+    color:yellowgreen;
+}
+#start-note4{   
     color:rgb(235, 187, 125);
     text-align: right;
-    font-size:70px;
-    padding-right:12%;
+    font-size:80px;
+    padding-right:9%;
     padding-top:0;
     padding-bottom:0;
     margin-bottom:-7%;
+    margin-top:-16%;
 }
-#start-note4{
+#start-note5{
     color:cadetblue; 
     text-align: left;
     font-size:70px;
-    padding-left:28%;
+    padding-left:7%;
     padding-top:0;
     padding-bottom:0;
+    margin-top:-20%;
 }
 .start{
     padding-top:0;
-    border:20px solid rgb(243, 241, 114);
+    /* border:20px solid rgb(243, 241, 114); */
+    border:20px solid black;
     width:360px;
     height:640px;
     margin:0 auto;
@@ -60,7 +68,8 @@ body{
 }
 
 .start-text{
-    color:rgb(104, 104, 255);
+    /* color:rgb(104, 104, 255); */
+    color:black;
     text-align:center;
     margin-top:10%;
     margin-bottom:0;
@@ -69,7 +78,8 @@ body{
     font-family:'Single Day', cursive; 
 }
 .start-text2{
-    color:rgb(8, 192, 106);
+    color:rgb(5, 175, 96);
+    /* color:black; */
     font-size:20px;
     font-weight: bold;
     text-align:center;
@@ -86,10 +96,12 @@ body{
     margin-right:auto;
     border-radius:12px;
     background-color:white;
-    border: 5px solid rgb(190, 85, 168);
+    /* border: 5px solid rgb(190, 85, 168); */
+    border: 5px solid black;
     font-size:28px;
     font-weight:bold;
-    color:rgb(253, 160, 207);
+    /* color:rgb(253, 160, 207); */
+    color:black;
     cursor:pointer;
     transition:all 0.5s;    
 }
