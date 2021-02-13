@@ -16,27 +16,33 @@ body{
                 -1px 1px 0 black;
 }
 #start-note1{
+    color:rgb(194, 15, 248);
     text-align: left;
-    font-size:60px;
-    padding-left:16%;
+    font-size:60px; 
+    padding-left:14%;
     padding-top:0;
     padding-bottom:0%;
 }
 #start-note2{   
+    color:rgb(233, 5, 184);
     text-align: right;
     padding-right:20%;
-    font-size:80px;
+    font-size:70px;
+    margin-top:-20%;
     padding-top:0;
     padding-bottom:0;
 }
 #start-note3{   
+    color:rgb(235, 187, 125);
     text-align: right;
-    font-size:40px;
+    font-size:70px;
     padding-right:12%;
     padding-top:0;
     padding-bottom:0;
+    margin-bottom:-7%;
 }
 #start-note4{
+    color:cadetblue; 
     text-align: left;
     font-size:70px;
     padding-left:28%;
@@ -45,7 +51,7 @@ body{
 }
 .start{
     padding-top:0;
-    border:20px solid black;
+    border:20px solid rgb(243, 241, 114);
     width:360px;
     height:640px;
     margin:0 auto;
@@ -54,28 +60,36 @@ body{
 }
 
 .start-text{
-    color:black;
+    color:rgb(104, 104, 255);
     text-align:center;
-    margin-top:0;
+    margin-top:10%;
     margin-bottom:0;
     font-size:45px;
     font-weight: bold;
-    font-family: 'Single Day', cursive;
-    
+    font-family:'Single Day', cursive; 
+}
+.start-text2{
+    color:rgb(8, 192, 106);
+    font-size:20px;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Poor Story', cursive;
+    padding:0;
+    margin:0;
 }
 .startbutton{
     display:block;
-    margin-top:15%  ;
+    margin-top:9%  ;
     width:180px;
     height:70px;
     margin-left:auto;
     margin-right:auto;
     border-radius:12px;
     background-color:white;
-    border: 5px solid black;
+    border: 5px solid rgb(190, 85, 168);
     font-size:28px;
     font-weight:bold;
-    color:black;
+    color:rgb(253, 160, 207);
     cursor:pointer;
     transition:all 0.5s;    
 }
@@ -251,9 +265,9 @@ body{
     text-align:center;
     margin-top:2px;
     font-family:'Jua', sans-serif;
-    font-size:21px;
+    font-size:23px;
     margin-bottom:0;
-    line-height: 50px;
+    line-height: 30px;
     font-weight: bold;
     color:rgba(80, 3, 3, 0.925);
 
@@ -374,6 +388,7 @@ body{
     .start-text{
         font-size:40px;  
     }
+
     .question{
         margin-top:5%;
         margin-left:auto;
