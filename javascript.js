@@ -68,22 +68,22 @@ var q ={
 //     }
 
 var result ={
-    "ESTJ": {"genre":"락",      "subtitle":"어디서나 위풍당당 모두를 압도하는",   "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 ", "audio":"bgm/Shout (mp3cut.net).mp3"},
-    "ESTP": {"genre":"힙합",    "subtitle":"폼생폼사 멋쟁이 반항아",   "chemibox":"", "explain":"",     "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
-    "ESFJ": {"genre":"K-pop",   "subtitle":"어디서나 사랑받는 센스쟁이",   "chemibox":"뉴에이지", "explain":"헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤헤",    "audio":"bgm/Dynamite (mp3cut.net).mp3"},
-    "ESFP": {"genre":"트롯트",  "subtitle":"분위기는 내가 책임질게!",   "chemibox":"", "explain":"",     "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
-    "ENTJ": {"genre":"EDM",     "subtitle":"모두 내 리듬에 맞춰 춤 춰!",  "chemibox":"", "explain":"",     "audio":"bgm/Flashlight (Radio Edit).mp3"},
-    "ENTP": {"genre":"펑크",    "subtitle":"Why so serious? 일단 즐겨!",  "chemibox":"", "explain":"",    "audio":"bgm/Uptown Funk (Feat. Bruno Mars).mp3"},
-    "ENFJ": {"genre":"뮤지컬",  "subtitle":"나와 함께 손잡고 노래하자! ", "chemibox":"", "explain":"햇살은 따스하고 새들은 지저귀고 랄랄라~ 언제나 밝고 따스한 모습으로 어느 모임에서나 잘 녹아들고 사람들에게 행복과 희망을 심어주곤 하는 당신의 인생은 마치 한 편의 뮤지컬 같아요. 그래서인지 당신 주변엔 늘 당신에게 힘을 얻고 또 힘을 주는 사람들이 많아요. 카리스마 있는 리더십 보다는 긍정의 에너지로 사람들을 동기화 시킬 수 있는 부드러운 리더십을 가지고 있네요!", "audio":"bgm/슬플 땐 빨래를 해 (mp3cut.net).mp3"},
+    "ESTJ": {"genre":"락",      "subtitle":"어디서나 위풍당당 모두를 압도하는",   "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 ","sub_explain":"", "audio":"bgm/Shout (mp3cut.net).mp3"},
+    "ESTP": {"genre":"힙합",    "subtitle":"폼생폼사 멋쟁이 반항아",   "chemibox":"", "explain":"",  "sub_explain":"",   "audio":"bgm/시차 (We Are) (Feat (mp3cut.net).mp3"},
+    "ESFJ": {"genre":"K-pop",   "subtitle":"어디서나 사랑받는 센스쟁이",   "chemibox":"뉴에이지", "explain":"", "sub_explain":"",   "audio":"bgm/Dynamite (mp3cut.net).mp3"},
+    "ESFP": {"genre":"트롯트",  "subtitle":"분위기는 내가 책임질게!",   "chemibox":"", "explain":"",  "sub_explain":"",   "audio":"bgm/엄지 척 (mp3cut.net).mp3"},
+    "ENTJ": {"genre":"EDM",     "subtitle":"모두 내 리듬에 맞춰 춤 춰!",  "chemibox":"", "explain":"",   "sub_explain":"",  "audio":"bgm/Flashlight (Radio Edit).mp3"},
+    "ENTP": {"genre":"펑크",    "subtitle":"Why so serious? 일단 즐겨!",  "chemibox":"", "explain":"",  "sub_explain":"",  "audio":"bgm/Uptown Funk (Feat. Bruno Mars).mp3"},
+    "ENFJ": {"genre":"뮤지컬",  "subtitle":"나와 함께 손잡고 노래하자! ", "chemibox":"", "explain":"언제나 밝고 따스한 모습으로 어느 모임에서나 잘 녹아들고 사람들에게 행복과 희망을 심어주곤 하는 당신의 인생은 마치 한 편의 뮤지컬 같아요. 그래서인지 당신 주변엔 늘 당신에게 힘을 얻고 또 힘을 주는 사람들이 많아요. 카리스마 있는 리더십보다는 긍정의 에너지로 사람들을 동기화시킬 수 있는 부드러운 리더십을 가지고 있네요!", "sub_explain":"다른 사람들에게 에너지를 주는 만큼 당신도 주변의 영향을 많이 받는 편이에요. 그러다 보니 같이 어울리는 사람들에게 잘 동화되죠. 좋은 에너지뿐만 아니라 나쁜 에너지까지도 가리지 않고 다 흡수해버리는 편이라 가끔 좀 피곤하긴 해요. 다른 사람은 좋지만 정작 나 스스로는 지치고 있을지 모르니 한 박자 쉬어가며 나를 달래주기로 해요:)", "audio":"bgm/슬플 땐 빨래를 해 (mp3cut.net).mp3"},
     "ENFP": {"genre":"재즈",    "subtitle":"정해진 악보보단 내 마음이<br>가는 대로 연주하고 싶어",  "chemibox":"", "explain":"",     "audio":"bgm/It's All Right (mp3cut.net).mp3"},
-    "ISTJ": {"genre":"클래식",  "subtitle":"기본에 충실한 <br>그래서 더 빛나는 모범생",  "chemibox":"", "explain":"",     "audio":"bgm/모차르트  세레나데 제13번 '아이네 클라이네 나흐트무지크' G장조 K (mp3cut.net).mp3"},
-    "ISTP": {"genre":"블루스",  "subtitle":"",  "chemibox":"", "explain":"",     "audio":"bgm/서울의 달 (mp3cut.net).mp3"},
-    "ISFJ": {"genre":"발라드",   "subtitle":"섬세한 멜로디로 <br>내 마음을 들었다 놨다",  "chemibox":"IIII", "explain":"♬ <br>역동적이진 않지만 섬세한 감성과 따뜻한 마음씨로 많은 사람을 끌어당기는 매력의 소유자인 당신의 인생에는 발라드가 어울리겠어요. 타고난 섬세함으로 사소한 부분 까지 기억해주고, 알아채주는 당신에게 감동한 사람이 한 둘이 아니네요.<br>혼자 있는 걸 좋아하고 낯도 가리지만 정작 다른 사람들과 함께일 때는 은근 인싸 재질이에요. 대부분 무난한 성격으로 통하지만 친해질수록 당신만의 매력을 드러내는 볼매!<br>사려 깊고 성실한 당신은 다른 사람의 부탁을 잘 들어주는 편이예요. 하지만 정작 자신은 힘들고 어려운 일이 생기거나 서운한 일이 생겨도 잘 드러내지 못하고 속앓이를 해요. 사실 상처도 많이 받고 여린데 사람들이 잘 몰라주는 것 같아서 서러울 때도 있죠. 조금 더 솔직하게 나를 드러내도 당신 곁에 있는 사람은 당신을 더 꽉 안아줄 거예요.",     "audio":"bgm/정승환 - 1 - 너였다면 - 320k (mp3cut.net).mp3"},
-    "ISFP": {"genre":"샹송",     "subtitle":"반짝이는 파리의 밤을 느껴볼까",  "chemibox":"", "explain":"",     "audio":"bgm/Le Festin (영화 '라따뚜이' 삽입곡) (mp3cut.net).mp3"},
-    "INTP": {"genre":"인디",     "subtitle":"난 조용히 나만의 길을 간다<br>자발적 아웃사이더",   "chemibox":"", "explain":"",     "audio":"bgm/사람은 이상하고 사랑은 모르겠어 (mp3cut.net).mp3"},
-    "INTJ": {"genre":"포크",     "subtitle":"차가워 보이지만 <br>들어보면 따뜻할 걸?",  "chemibox":"", "explain":"",     "audio":"bgm/너무 아픈 사랑은 사랑이 아니었음을 (mp3cut.net).mp3"},
-    "INFJ": {"genre":"뉴에이지",  "subtitle":"나도 나를 모르겠어! 신비주의", "chemibox":"", "explain":"",     "audio":"bgm/River Flows In You (mp3cut.net).mp3"},
-    "INFP": {"genre":"R&B",      "subtitle":"",   "chemibox":"", "explain":"동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세", "audio":"bgm/Love (mp3cut.net).mp3"}
+    "ISTJ": {"genre":"클래식",  "subtitle":"기본에 충실한 <br>그래서 더 빛나는 모범생",  "chemibox":"", "explain":"차분하고 신중한 당신, 당신 머리 속에는 다 계획이 있군요. ‘사람이 기본에 충실해야지’라고 생각하는 당신에겐 클래식이 어울리겠어요. 어떤 일을 맡으면 원칙대로, 계획대로 책임감 있고 진득하게 주어진 일을 완벽하게 해내는 당신은 어떠한 조직에서든 없어서는 안 될 존재네요! 항상 진지하고 철저한 모습에 누군가는 “너 재미 없어.”라고 할지 모르겠지만 그건 당신과 친하지 않아서 그런 거예요. 당신의 철벽을 뚫고 들어오긴 쉽지 않지만 한 번 그 벽이 허물어지면 세상 능글쟁이, 장난꾸러기예요.",   "sub_explain":"당신의 원칙적이고 철저한 성격은 당신 자신에게 가장 많이 향해 있어요. 그래서 스스로 매우 엄격하고 항상 자신을 통제하려는 성향이 강하죠. 그 덕에 당신은 무슨 일을 하든 완벽하고, 어느 조직에서든 좋은 성과를 내지만 가끔 자신에게 너무 가혹해요. 가끔은 계획과 책임감으로 꼭꼭 묶어 두었던 나를 느슨하게 풀어주고 잠시 훌쩍 떠나보는 건 어때요?",  "audio":"bgm/모차르트  세레나데 제13번 '아이네 클라이네 나흐트무지크' G장조 K (mp3cut.net).mp3"},
+    "ISTP": {"genre":"블루스",  "subtitle":"",  "chemibox":"", "explain":"",  "sub_explain":"",    "audio":"bgm/서울의 달 (mp3cut.net).mp3"},
+    "ISFJ": {"genre":"발라드",   "subtitle":"섬세한 멜로디로 <br>내 마음을 들었다 놨다",  "chemibox":"IIII", "explain":"역동적이진 않지만 섬세한 감성과 따뜻한 마음씨로 많은 사람을 끌어당기는 매력의 소유자인 당신의 인생에는 발라드가 어울리겠어요. 타고난 섬세함으로 사소한 부분까지 기억해주고, 알아 채주는 당신에게 감동한 사람이 한둘이 아니네요.",  "sub_explain":"혼자 있는 걸 좋아하고 낯도 가리지만 정작 다른 사람들과 함께일 때는 은근 인싸 재질이에요. 대부분 무난한 성격으로 통하지만 친해질수록 당신만의 매력을 드러내는 볼매! 사려 깊고 성실한 당신은 다른 사람의 부탁을 잘 들어주는 편이에요. 하지만 정작 자신은 힘들고 어려운 일이 생기거나 서운한 일이 생겨도 잘 드러내지 못하고 속앓이를 해요. 사실 상처도 많이 받고 여린데 사람들이 잘 몰라주는 것 같아서 서러울 때도 있죠. 조금 더 솔직하게 나를 드러내도 당신 곁에 있는 사람은 당신을 더 꽉 안아줄 거예요.",   "audio":"bgm/정승환 - 1 - 너였다면 - 320k (mp3cut.net).mp3"},
+    "ISFP": {"genre":"샹송",     "subtitle":"반짝이는 파리의 밤을 느껴볼까",  "chemibox":"", "explain":"",  "sub_explain":"",   "audio":"bgm/Le Festin (영화 '라따뚜이' 삽입곡) (mp3cut.net).mp3"},
+    "INTP": {"genre":"인디",     "subtitle":"난 조용히 나만의 길을 간다<br>자발적 아웃사이더",   "chemibox":"", "explain":"",   "sub_explain":"",  "audio":"bgm/사람은 이상하고 사랑은 모르겠어 (mp3cut.net).mp3"},
+    "INTJ": {"genre":"포크",     "subtitle":"차가워 보이지만 <br>들어보면 따뜻할 걸?",  "chemibox":"", "explain":"",  "sub_explain":"",   "audio":"bgm/너무 아픈 사랑은 사랑이 아니었음을 (mp3cut.net).mp3"},
+    "INFJ": {"genre":"뉴에이지",  "subtitle":"나도 나를 모르겠어! 신비주의", "chemibox":"", "explain":"",   "sub_explain":"",  "audio":"bgm/River Flows In You (mp3cut.net).mp3"},
+    "INFP": {"genre":"R&B",      "subtitle":"",   "chemibox":"", "explain":"", "sub_explain":"", "audio":"bgm/Love (mp3cut.net).mp3"}
 }
 
 function next(){
@@ -111,6 +111,7 @@ function next(){
         $('.chemibox').html(result[mbti]['chemibox']);
         $('.genre').html(result[mbti]['genre']);
         $('.explain').html(result[mbti]['explain']);
+        $('.sub_explain').html(result[mbti]['sub_explain']);
         $('.subtitle').html(result[mbti]['subtitle']);   
 
         setTimeout(function(){

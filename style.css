@@ -288,7 +288,7 @@ body{
 .genre{
     font-size:60px;
     margin-top:-8px;
-    margin-bottom:-20px;
+    margin-bottom:0;
     padding-top:0;
     padding-bottom:0;
     text-align:center;
@@ -331,6 +331,16 @@ body{
 
             }
             
+.my-melody{
+    color:rgb(207, 31, 69);
+    font-weight: bold;
+    font-size:28px;
+    font-family:'Poor Story', cursive;
+    margin-top:0;
+    margin-bottom:-3%;
+    padding-left:3%;
+    
+}
 
 .explain{
     padding-top:0;
@@ -341,9 +351,32 @@ body{
     padding:3%;
     margin-left:3%;
     margin-right:3%;
+    margin-bottom:10%;
+
+
+}
+
+.my-note{
+    color:rgb(207, 31, 69);
+    font-weight: bold;
+    font-size:28px;
+    font-family:'Poor Story', cursive;
+    margin-top:0;
+    margin-bottom:-3%;
+    padding-left:3%;
+}
+
+.sub_explain{
+    padding-top:0;
+    font-size:17px;
+    color:rgb(2, 65, 7);
+    font-family: 'Single Day', cursive;     
+    padding:0;
+    padding:3%;
+    margin-left:3%;
+    margin-right:3%;
     margin-block-start: 1px;
     margin-block-end: 1px;
-
 }
 /* ::-webkit-scrollbar{
     width:8px;
@@ -359,6 +392,7 @@ body{
 
 .chemi{
     font-family: 'Single Day', cursive;
+    margin-bottom:0;
     font-size:26px;
     padding-left:20px;
     margin-top:5%;
@@ -368,9 +402,10 @@ body{
     font-family: 'Jua', sans-serif;
     font-size:31px;
     float:right;
-    margin-left:-4%;
+    margin-left:-10%;
+
     text-align:center;
-    width:150px;
+    width:130px;
     margin-top:5%;
     color:rgb(247, 224, 93);
     text-shadow:1px 0 0 black,
@@ -384,6 +419,7 @@ body{
 }
 #share{
     text-align: center;
+    margin-bottom:15px;
 }
 
 
