@@ -394,13 +394,13 @@ body{
     font-family: 'Single Day', cursive;
     margin-bottom:0;
     font-size:26px;
-    padding-left:20px;
+    padding-left:17px;
     margin-top:5%;
     float:left;
 }
 .chemibox{
     font-family: 'Jua', sans-serif;
-    font-size:31px;
+    font-size:29px;
     float:right;
     margin-left:-10%;
 
@@ -417,6 +417,24 @@ body{
                 1px -1px 0 black,
                 -1px 1px 0 black;
 }
+
+.restart{
+    margin-top:5%;
+    text-align:center;
+    cursor:pointer;
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Poor Story', cursive;
+    color:rgb(241, 139, 4);
+    border:2px solid rgb(199, 107, 2);
+    width:120px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+
 #share{
     text-align: center;
     margin-bottom:15px;
