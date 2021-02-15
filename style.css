@@ -139,7 +139,7 @@ body{
 .loadingtext{
     font-family: 'Single Day', cursive;
     color: black;
-    font-size:34px;
+    font-size:32px;
     margin-top:0;
     padding:0;
     margin-bottom:2%;
@@ -180,7 +180,7 @@ body{
 }
 
 .alert{
-    font-size:16px;
+    font-size:15px;
     font-family: 'Single Day', cursive;
     text-align:right;
     margin-top:0;
@@ -426,7 +426,7 @@ body{
     font-weight:bold;
     font-family:'Poor Story', cursive;
     color:rgb(241, 139, 4);
-    border:2px solid rgb(199, 107, 2);
+    border:2px solid rgb(241, 139, 4);
     width:120px;
     border-radius: 10px;
     margin:0 auto;
