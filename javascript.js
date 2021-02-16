@@ -91,15 +91,6 @@ function next(){
     if(num==13){
         const question = document.querySelector('.question');
         question.style.display="none";
-        
-        setTimeout(function(){
-            $(".loading").fadeIn(500);
-        }, 500);
-        
-        setTimeout(function(){
-            $(".loading").fadeOut(1000);
-            $('.result').fadeIn(5000);
-        }, 4500);
         document.body.style.backgroundColor = "rgb(252, 246, 214)";
         
         var mbti =""
@@ -107,6 +98,22 @@ function next(){
         $('.SN').val()>1 ? mbti +="S" : mbti +="N";
         $('.TF').val()>1 ? mbti +="T" : mbti +="F";
         $('.JP').val()>1 ? mbti +="J" : mbti +="P";
+        
+        setTimeout(function(){
+            $('.audio').attr("src",result[mbti]['audio']);
+        },5500);
+
+
+        setTimeout(function(){
+            $(".loading").fadeIn(500);
+        }, 500);
+        
+        setTimeout(function(){
+            $(".loading").fadeOut(1000);
+            $('.result').fadeIn(4500);
+        }, 3500);
+
+
 
         $('.chemibox').html(result[mbti]['chemibox']);
         $('.genre').html(result[mbti]['genre']);
@@ -114,9 +121,6 @@ function next(){
         $('.sub_explain').html(result[mbti]['sub_explain']);
         $('.subtitle').html(result[mbti]['subtitle']);   
 
-        setTimeout(function(){
-        $('.audio').attr("src",result[mbti]['audio']);
-        },5500);
     }
 
 
