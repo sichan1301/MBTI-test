@@ -110,8 +110,8 @@ function next(){
         
         setTimeout(function(){
             $(".loading").fadeOut(1000);
-            $('.result').fadeIn(4500);
-        }, 3500);
+            $('.result').fadeIn(5000);
+        }, 4000);
 
 
 
