@@ -1,12 +1,10 @@
 # BGM Test (배경음악 테스트)
 
-![bgmtest1](https://user-images.githubusercontent.com/49518734/147401305-1c21a7a0-0c2b-4c62-995c-ffc161878850.JPG)
+![bgmtest1](https://user-images.githubusercontent.com/49518734/147401738-c1bc1adc-d417-48d8-bf8c-366450607fed.JPG)
 
 ___
-![bgmtest2](https://user-images.githubusercontent.com/49518734/147401401-a45e8ca1-a7ab-4b1d-982b-4ff69af85566.JPG)
 
-___
-![bgmtest3](https://user-images.githubusercontent.com/49518734/147401405-9afa6eed-6b6c-4b9c-9c60-a227ce67f30d.JPG)
+![bgmtest2](https://user-images.githubusercontent.com/49518734/147401743-3209e479-6f5a-4691-8853-fdbee7a034e9.JPG)
 
 ___
 
